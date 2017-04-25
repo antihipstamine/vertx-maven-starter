@@ -18,7 +18,7 @@ public class WatermarqVerticle extends AbstractVerticle {
   @Override
   public void start() {
 
-//    setUpInitialData();
+    OpenStegoWrapper wrapper = new OpenStegoWrapper();
 
     Router router = Router.router(vertx);
 
